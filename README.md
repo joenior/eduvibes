@@ -1,20 +1,24 @@
-# Eduvibes (On progress!)
-Learning Management System (LMS) yang dikembangkan menggunakan framework Laravel 8.
+# Laravel 8 Learning Management System - (LMS)
+
 ## Screenshots
 
-![preview img](https://i.ibb.co/7KcXBWd/eduvibes.png)
+![preview img](/preview.jpg)
 
-## Jalankan secara lokal
+## Run Locally
+
+Clone the project
 
 ```bash
-  git clone https://github.com/joenior/eduvibes
+  git clone https://github.com/abdulaziz-m5u/course-LMS.git your-project
 ```
+
+Go to the project directory
 
 ```bash
   cd your-project
 ```
 
-- Konfigurasikan file .env agar berjalan dengan baik
+-   Copy .env.example file to .env and edit database credentials there
 
 ```bash
     composer install
@@ -27,3 +31,8 @@ Learning Management System (LMS) yang dikembangkan menggunakan framework Laravel
 ```bash
     php artisan db:seed
 ```
+
+#### Login
+
+-   email = admin@example.com
+-   password = 123
