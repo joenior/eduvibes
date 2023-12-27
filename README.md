@@ -1,4 +1,4 @@
-# eduvibes
+# Eduvibes (On progress!)
 Learning Management System (LMS) yang dikembangkan menggunakan framework Laravel 8.
 ## Screenshots
 
